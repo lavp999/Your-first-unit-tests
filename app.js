@@ -3,11 +3,6 @@ const sum = (a,b) => {
     return a + b
 }
 
-// solo un registro en consola para nosotros.
-console.log(sum(7,3))
-
-
-
 // one euro is:
 let oneEuroIs = {
     "JPY": 127.9, // japan yen
@@ -41,9 +36,6 @@ function fromTo(valor, moneda1, moneda2) {
 
     return nuevoValor;
 }
-
-
-console.log("Mi resultado :", fromTo(5));
 
 // exporta la función para usarla en otros archivos 
 // (similar a la palabra clave `export` cuando se usa webpack)

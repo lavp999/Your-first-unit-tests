@@ -28,7 +28,6 @@ test('1 Libra son 0,006254887 Yenes', () => {
     expect(alCambio).toBe(0.03127443315089914);  // 5 Yenes deben ser 0.03127443 Libras
 });
 
-
 // -----   fromTo  -------
 test('1 Euro son 1,2 Dolares', () => {
     let alCambio = fromTo(5, "EUR", "USD");
@@ -44,4 +43,3 @@ test('1 Libra son 0,006254887 Yenes', () => {
     let alCambio = fromTo(5 , "JPY" , "GBP"); 
     expect(alCambio).toBe(0.03127443315089914);  // 5 Yenes deben ser 0.03127443 Libras
 });
-
